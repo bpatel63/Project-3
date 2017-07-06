@@ -1,0 +1,147 @@
+body 
+{
+  margin: 10px auto;
+  padding: 10px;
+  font-weight: inherit;
+  background-image: url("floralbackground.jpg");
+  background-size: cover;
+  font-size: 100%;
+}
+
+header 
+{
+text-align: center;
+padding: 0px;
+}
+
+h1{
+background-color: #FFF5EE;
+font-weight: normal;
+color: purple;
+font-size: 2.5em;
+letter-spacing: 0em;
+text-indent: 1em;
+line-height: 1.5em;
+text-align: center;
+padding: 0px;
+}
+
+ nav 
+{
+text-align: center;
+background-color: #FFE4E1;
+display: inline-block;
+position: relative;
+margin-bottom: 0px;
+}
+
+ nav ul
+{
+text-align: center;
+display: inline-block;
+list-style-type: none;
+margin: 0px;
+padding: 0px;
+overflow: hidden;
+}
+
+ nav ul li 
+{
+  float: left;
+  text-align: center;
+  border: 1px solid purple;
+  border-style: double;
+  line-height: 1.5em;
+  margin: 0;
+  width: auto;
+}
+
+nav li a
+{ text-align: center;
+  display: block;
+  color: purple;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+nav li a:hover:not(.active)
+{
+  background-color: #FFC0CB;
+}
+
+.active
+{
+  background-color: pink;
+}
+
+div#best-clicks h2
+{
+font-family: 'Sofia'; 
+font-weight: normal;
+font-size: 2em;
+color: purple;
+text-align: left;
+}
+
+h2 
+{
+font-family: 'Sofia'; 
+font-weight: normal;
+font-size: 2em;
+color: purple;
+text-align: center;
+}
+
+/* div#map
+{
+  height: 700px;
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+*/
+p
+{
+  font-family: 'Sofia'; 
+  font-size: 20px;
+}
+
+img 
+{ 
+max-width:60%;
+}
+
+h3 
+{
+font-family: 'Sofia'; 
+font-weight: normal;
+font-size: 1.5em;
+color: black;
+}
+
+ div 
+{
+clear: bottom;
+margin: 10px;
+}
+
+footer
+{
+  width: 102%;
+  text-align: center;
+  font-size: 1em;
+  margin-top: 0.9em;
+  font-size: 0.8em;
+  text-align: center;
+  font-variant: small-caps;
+  color: purple;
+  border-top: 1px solid purple;
+}	
+
+
+
+
+
+
