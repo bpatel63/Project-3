@@ -41,12 +41,12 @@
         <p><strong> My Favorite Place </strong></p>
         
 	<script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script>
-        <div style='overflow:hidden;height:440px;width:700px;'></div>
+        <div style='overflow:hidden;height:440px;width:700px;'>
         <div id='gmap_canvas' style='height:440px;width:700px;'></div>
         <div><small><a href="http://embedgooglemaps.com"></a></small></div>
         <div><small></small></div>
         <style>#gmap_canvas
-          img{max-width:none!important;background:none!important}</style>
+          img{max-width:none!important;background:none!important}</style></div>
           <script type='text/javascript'>
           function init_map(){var myOptions =
           {zoom:15,center:new
@@ -55,8 +55,10 @@
           google.maps.Map(document.getElementById('gmap_canvas'), myOptions);
           marker = new google.maps.Marker({map: map,position: new
           google.maps.LatLng(20.6295586,-87.07388509999998)});infowindow = new
-          google.maps.InfoWindow({content:'<strong>playa delcarmen</strong><br>playa del carmen,Quintana Roo,Mexico<br>'});google.maps.event.addListener(marker, 'click',
-          function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window,'load', init_map);</script>
+          google.maps.InfoWindow({content:'<strong>playa delcarmen</strong><br>playa del carmen,Quintana Roo,Mexico<br>'});
+	  google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}
+          google.maps.event.addDomListener(window,'load', init_map);
+	  </script>
         
        <div><a href="#top">Return to Top</a> &#8657;</div>
     
